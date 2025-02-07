@@ -13,7 +13,7 @@ This is a **React-based BMI & Body Fat Calculator** that helps users calculate t
 ## 🛠️ Installation & Setup
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-repo/bmi-calculator.git
+git clone https://github.com/kolekarom/BMI-CALCULATOR.git
 cd bmi-calculator
 ```
 ### 2️⃣ Install Dependencies
