@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workouts</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/workouts.css">
+</head>
+<body>
+  <header>
+    <h1>Workouts</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+  <main>
+    <div class="workouts">
+      <form onsubmit="addWorkout(); return false;">
+        <label for="workout">Add Workout:</label>
+        <input type="text" id="workout" required>
+        <button type="submit">Add</button>
+      </form>
+      <div id="workout-list"></div>
+    </div>
+  </main>
+  <script src="../assets/js/workouts.js"></script>
+</body>
+</html>

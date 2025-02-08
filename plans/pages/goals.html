@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goals</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/goals.css">
+</head>
+<body>
+  <header>
+    <h1>Goals</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+  <main>
+    <div class="goals">
+      <form onsubmit="addGoal(); return false;">
+        <label for="goal">Add Goal:</label>
+        <input type="text" id="goal" required>
+        <button type="submit">Add</button>
+      </form>
+      <div id="goal-list"></div>
+    </div>
+  </main>
+  <script src="../assets/js/goals.js"></script>
+</body>
+</html>
