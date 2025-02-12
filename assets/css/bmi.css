@@ -25,11 +25,14 @@ h1 {
 
 .input-group {
     margin-bottom: 15px;
+    background: rgb(232, 212, 212);
+    color: #2c3e50;
 }
 .input-group label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    background: rgb(232, 212, 212);
 }
 .input-group select {
     width: 100%;
